@@ -1,0 +1,499 @@
+{% load static%}
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Score Zone</title>
+        <link rel="icon" href=
+        "https://img.lovepik.com/element/45004/6470.png_860.png"
+                  type="image/x-icon">
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="{%static 'css/bootstrap.min.css'%}" rel="stylesheet">
+        <link href="{%static 'css/bootstrap-icons.css'%}" rel="stylesheet">
+
+        <link rel="stylesheet" href="{%static 'css/slick.css'%}"/>
+
+        <link href="{%static 'css/tooplate-little-fashion.css'%}" rel="stylesheet">
+<!--
+
+Tooplate 2127 Little Fashion
+
+https://www.tooplate.com/view/2127-little-fashion
+
+-->
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <strong><span>Score</span> Zone</strong>
+                    </a>
+
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="live.html">Live Score</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="winner.html">Winner predictor</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://localhost:5000/">Score Predictor</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="rec/">Recommendation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="team/">Our Team</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+            <section class="slick-slideshow">   
+                <div class="slick-custom">
+                    <img src="{%static 'images/slideshow/dhoni.jpg'%}" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title" style="font-family: fantasy">MS-DHONI</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5" style = "font-family:Great Vibess">"The process is more important than the results. And if you take care of the process, you will get the results"</p>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="{%static 'images/slideshow/rohit1.jpg'%}" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title" style="font-family: fantasy">Rohit Sharma</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5" style = "font-family:Great Vibess">"No matter how talented you are or naturally gifted you are, there's no substitute to hard work if you got to maintain standards"</p>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="{%static 'images/slideshow/virat kholi.jpg'%}" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title" style="font-family: fantasy">Virat Kohli</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5" style = "font-family:Great Vibess">"Whatever you want to do, do with full passion and work really hard towards it"</p>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-custom">
+                    <img src="{%static 'images/slideshow/sachin.jpg'%}" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title" style="font-family: fantasy">Sachin Tendulkar</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5" style = "font-family:Great Vibess">"Success is a process... During that journey sometimes there are stones thrown at you, and you convert them into milestones"</p>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-custom">
+                    <img src="{%static 'images/slideshow/raina.jpg'%}" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title" style="font-family: fantasy">Suresh Raina</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5" style = "font-family:Great Vibess">"I have always maintained that if you work hard, it wont go waste, as recognition will come to you at some stage, whether in studies or sports. You need to have good intentions and intent to move ahead in life as well as in sports"</p>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section class="about section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5">IPL 2024<span> Squads</span></h2>
+                        </div>
+
+                        <div class="col-lg-3 col-80 mt-auto mb-auto">
+                            <ul class="nav nav-pills mb-5 mx-auto justify-content-center align-items-left" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-chennai-tab" data-bs-toggle="pill" data-bs-target="#pills-chennai" type="button" role="tab" aria-controls="pills-chennai" aria-selected="true">Chennai Super Kings</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-mumbai-tab" data-bs-toggle="pill" data-bs-target="#pills-mumbai" type="button" role="tab" aria-controls="pills-mumbai" aria-selected="false">Mumbai Indians</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-kolkata-tab" data-bs-toggle="pill" data-bs-target="#pills-kolkata" type="button" role="tab" aria-controls="pills-kolkata" aria-selected="false">Kolkata Knight Riders</button>
+                                </li>
+                                                <!-- Sunrisers Hyderabad -->
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-hyderabad-tab" data-bs-toggle="pill" data-bs-target="#pills-hyderabad" type="button" role="tab" aria-controls="pills-hyderabad" aria-selected="false">Sunrisers Hyderabad</button>
+                                </li>
+
+                                <!-- Rajasthan Royals -->
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-rajasthan-tab" data-bs-toggle="pill" data-bs-target="#pills-rajasthan" type="button" role="tab" aria-controls="pills-rajasthan" aria-selected="false">Rajasthan Royals</button>
+                                </li>
+
+                                <!-- Royal Challengers Bangalore -->
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-bangalore-tab" data-bs-toggle="pill" data-bs-target="#pills-bangalore" type="button" role="tab" aria-controls="pills-bangalore" aria-selected="false">Royal Challengers Bangalore</button>
+                                </li>
+
+                                <!-- Gujarat Titans -->
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-gujarat-tab" data-bs-toggle="pill" data-bs-target="#pills-gujarat" type="button" role="tab" aria-controls="pills-gujarat" aria-selected="false">Gujarat Titans</button>
+                                </li>
+
+                <!-- Lucknow Super Giants -->
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-lucknow-tab" data-bs-toggle="pill" data-bs-target="#pills-lucknow" type="button" role="tab" aria-controls="pills-lucknow" aria-selected="false">Lucknow Super Giants</button>
+                                </li>
+
+                                <!-- Punjab Kings -->
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-punjab-tab" data-bs-toggle="pill" data-bs-target="#pills-punjab" type="button" role="tab" aria-controls="pills-punjab" aria-selected="false">Punjab Kings</button>
+                                </li>
+
+                                <!-- Delhi Capitals -->
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-delhi-tab" data-bs-toggle="pill" data-bs-target="#pills-delhi" type="button" role="tab" aria-controls="pills-delhi" aria-selected="false">Delhi Capitals</button>
+                                </li>
+                            
+
+                              
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-8 col-  ">
+                            <div class="tab-content mt-2" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-chennai" role="tabpanel" aria-labelledby="pills-chennai-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-0">
+                                            <img src="{%static 'images/chennai.jpeg'%}" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Chennai <span> Super Kings</span> </h4>
+
+                                                <p>Chennai Super Kings is a professional cricket franchise based in Chennai, Tamil Nadu, India, that competes in the Indian Premier League. Founded in 2008, the team plays its home matches at the M. A. Chidambaram Stadium in Chennai.</p>
+
+                                                <div class="mt-2 mt-lg-auto">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            
+                                <!-- Mumbai Indians Tab -->
+                                <div class="tab-pane fade" id="pills-mumbai" role="tabpanel" aria-labelledby="pills-mumbai-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="{% static 'images/mumbai.jpg' %}" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Mumbai <span> Indians</span> </h4>
+                                                <p>Mumbai Indians is a professional cricket franchise based in Mumbai, Maharashtra, India, that competes in the Indian Premier League. Founded in 2008, the team plays its home matches at the Wankhede Stadium in Mumbai.</p>
+                                                <div class="mt-2 mt-lg-auto">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- Kolkata Knight Riders Tab -->
+                                <div class="tab-pane fade" id="pills-kolkata" role="tabpanel" aria-labelledby="pills-kolkata-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="{% static 'images/kolkata.jpg' %}" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Kolkata <span> Knight Riders</span> </h4>
+                                                <p>Kolkata Knight Riders is a professional cricket franchise based in Kolkata, West Bengal, India, that competes in the Indian Premier League. Founded in 2008, the team plays its home matches at the Eden Gardens stadium in Kolkata.</p>
+                                                <div class="mt-2 mt-lg-auto">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-hyderabad" role="tabpanel" aria-labelledby="pills-hyderabad-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="{% static 'images/hyderabad.jpg' %}" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Sunrisers <span> Hyderabad</span> </h4>
+                                                <p>Sunrisers Hyderabad is a professional cricket franchise based in Hyderabad, Telangana, India, that competes in the Indian Premier League. Founded in 2012, the team plays its home matches at the Rajiv Gandhi International Cricket Stadium in Hyderabad.</p>
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <!-- Additional content specific to Sunrisers Hyderabad -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-rajasthan" role="tabpanel" aria-labelledby="pills-rajasthan-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="{% static 'images/rajasthan.jpg' %}" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Rajasthan <span> Royals</span> </h4>
+                                                <p>Rajasthan Royals is a professional cricket franchise based in Jaipur, Rajasthan, India, that competes in the Indian Premier League. Founded in 2008, the team plays its home matches at the Sawai Mansingh Stadium in Jaipur.</p>
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <!-- Additional content specific to Rajasthan Royals -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- Royal Challengers Bangalore -->
+                                <div class="tab-pane fade" id="pills-bangalore" role="tabpanel" aria-labelledby="pills-bangalore-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="{% static 'images/banglore.jpg' %}" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Royal Challengers <span> Bangalore</span> </h4>
+                                                <p>Royal Challengers Bangalore is a professional cricket franchise based in Bangalore, Karnataka, India, that competes in the Indian Premier League. Founded in 2008, the team plays its home matches at the M. Chinnaswamy Stadium in Bangalore.</p>
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <!-- Additional content specific to Royal Challengers Bangalore -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-gujarat" role="tabpanel" aria-labelledby="pills-gujarat-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="{% static 'images/gujrat.jpg' %}" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Gujarat <span> Titans</span> </h4>
+                                                <p>Gujarat Titans is a professional cricket franchise based in Ahmedabad, Gujarat, India, that competes in the Indian Premier League. Founded in [year], the team plays its home matches at the Narendra Modi Stadium in Ahmedabad.</p>
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <!-- Additional content specific to Gujarat Titans -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- Lucknow Super Giants -->
+                                <div class="tab-pane fade" id="pills-lucknow" role="tabpanel" aria-labelledby="pills-lucknow-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="{% static 'images/lucknow.jpg' %}" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Lucknow <span> Super Giants</span> </h4>
+                                                <p>Lucknow Super Giants is a professional cricket franchise based in Lucknow, Uttar Pradesh, India, that competes in the Indian Premier League. Founded in [year], the team plays its home matches at the Atal Bihari Vajpayee Ekana Cricket Stadium in Lucknow.</p>
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <!-- Additional content specific to Lucknow Super Giants -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="tab-pane fade" id="pills-punjab" role="tabpanel" aria-labelledby="pills-punjab-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="{% static 'images/punjab.jpg' %}" class="img-fluid" alt="Punjab Kings Image">
+                                        </div>
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Punjab Kings</h4>
+                                                <p>Punjab Kings is a professional cricket franchise based in Mohali, Punjab, India. It competes in the Indian Premier League. Founded in 2008, the team plays its home matches at the Punjab Cricket Association IS Bindra Stadium.</p>
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <!-- Additional content specific to Punjab Kings -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+        
+                                <div class="tab-pane fade" id="pills-delhi" role="tabpanel" aria-labelledby="pills-delhi-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="{% static 'images/delhi.jpg' %}" class="img-fluid" alt="Delhi Capitals Image">
+                                        </div>
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Delhi Capitals</h4>
+                                                <p>Delhi Capitals is a professional cricket franchise based in Delhi, India. It competes in the Indian Premier League. The team was formerly known as Delhi Daredevils and was renamed Delhi Capitals in 2018. It plays its home matches at the Arun Jaitley Stadium.</p>
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <!-- Additional content specific to Delhi Capitals -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-10 me-auto mb-4">
+                        <h4 class="text-white mb-3"><a href="index.html">Score</a> Zone</h4>
+                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2024 <strong>Score</strong> Zone</p>
+                        <br>
+                        <p class="copyright-text">Designed by <a href="#" target="_blank">Team Uchihas</a></p>
+                    </div>
+
+                    <div class="col-lg-5 col-8">
+                        <h5 class="text-white mb-3">Sitemap</h5>
+
+                        <ul class="footer-menu d-flex flex-wrap">
+                            <li class="footer-menu-item"><a href="live.html" class="footer-menu-link">Live Score</a></li>
+
+                            <li class="footer-menu-item"><a href="winner.html" class="footer-menu-link">Winner predictor</a></li>
+
+                            <li class="footer-menu-item"><a href="score.html" class="footer-menu-link">Score Predictor</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Recommendation</a></li>
+
+                            <li class="footer-menu-item"><a href="contact.html" class="footer-menu-link">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-4">
+                        <h5 class="text-white mb-3">Social</h5>
+
+                        <ul class="social-icon">
+
+                            <li><a href="https://www.linkedin.com/in/mustafa-a-904747283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-icon-link bi-linkedin"></a></li>
+
+                            <li><a href="https://github.com/MUSTAFA892" class="social-icon-link bi-github"></a></li>
+
+                            <li><a href="https://www.instagram.com/_.mustafa._52/" class="social-icon-link bi-instagram"></a></li>
+
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="{%static 'js/jquery.min.js'%}"></script>
+        <script src="{%static 'js/bootstrap.bundle.min.js'%}"></script>
+        <script src="{%static 'js/Headroom.js'%}"></script>
+        <script src="{%static 'js/jQuery.headroom.js'%}"></script>
+        <script src="{%static 'js/slick.min.js'%}"></script>
+        <script src="{%static 'js/custom.js'%}"></script>
+
+    </body>
+</html>

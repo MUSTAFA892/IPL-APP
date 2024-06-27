@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>player recommendation</title>
+  <link rel="icon" href=
+        "https://img.lovepik.com/element/45004/6470.png_860.png"
+                  type="image/x-icon">
+  <link rel="stylesheet" href="{% static 'recstyles.css' %}">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+    body {
+      background-image: url('{% static 'ipl.jpg' %}');
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <form>
+      <h1>Player Recommendation</h1>
+      
+      <button type="button" class="btn" onclick="redirectToBatsman()"><center>Top Batsman</center></button>
+      <button type="button" class="btn" onclick="redirectToBowler()"><center>Top Bowler</center></button>
+     
+     
+    </form>
+  </div>
+
+  <script>
+    // Function to redirect to the batsman page
+    function redirectToBatsman() {
+      window.location.href = "https://www.iplt20.com/stats/2023";
+    }
+
+    // Function to redirect to the bowler page
+    function redirectToBowler() {
+      window.location.href = "https://www.mykhel.com/cricket/ipl-stats-s4/?season=2023";
+    }
+  </script>
+</body>
+</html>

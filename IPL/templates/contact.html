@@ -1,0 +1,227 @@
+
+{%load static%}
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Score Zone</title>
+        <link rel="icon" href=
+        "https://img.lovepik.com/element/45004/6470.png_860.png"
+                  type="image/x-icon">
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="{% static 'css/bootstrap.min.css'%}" rel="stylesheet">
+        <link href="{% static 'css/bootstrap-icons.css'%}" rel="stylesheet">
+
+        <link rel="stylesheet" href="{% static 'css/slick.css'%}"/>
+
+        <link href="{% static 'css/tooplate-little-fashion.css'%}" rel="stylesheet">
+        
+<!--
+
+Tooplate 2127 Little Fashion
+
+https://www.tooplate.com/view/2127-little-fashion
+
+-->
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <strong><span>Score</span> Zone</strong>
+                    </a>
+
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Live Score</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Winner predictor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Score Predictor</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">Recommendation</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </nav>
+
+            <header class="site-header section-padding-img site-header-image">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-10 col-12 header-info">
+                            <h1>
+                                <span class="d-block text-primary">Say hello to us</span>
+                                <span class="d-block text-dark">love to hear you</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="{% static 'images/sample.jpg'%}" class="header-image img-fluid" alt="">
+            </header>
+
+            <section class="contact section-padding">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-lg-6 col-12">
+                            <h2 class="mb-4">Let's <span>begin</span></h2>
+
+                            <form class="contact-form me-lg-5 pe-lg-3" role="form">
+
+                                <div class="form-floating">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Full name" required>
+
+                                    <label for="name">Full name</label>
+                                </div>
+
+                                <div class="form-floating my-4">
+                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required>
+
+                                    <label for="email">Email address</label>
+                                </div>
+                                
+                                <div class="form-floating my-4">
+                                    <input type="subject" name="subject" id="subject"class="form-control" placeholder="Subject" required>
+
+                                    <label for="subject">Who is your favorite player?</label>
+                                </div>
+
+                                <div class="form-floating mb-4">
+                                    <textarea id="message" name="message" class="form-control" placeholder="Leave a comment here" required style="height: 160px"></textarea>
+
+                                    <label for="message">Tell us about your favorite player...</label>
+                                </div>
+
+                                <div class="col-lg-5 col-6">
+                                    <button type="submit" class="form-control">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="#" class="link-box">
+                              <i class="fa fa-map-marker" aria-hidden="true"></i>
+                              <h2 class="mb-4">Loc<span>ation</span></h2> 
+                              <iframe
+                              width="800"
+                              height="465"
+                              src="https://maps.google.com/maps?q=YOUR_LOCATION&hl=en&z=14&output=embed"
+                              style="border:7;"
+                              allowfullscreen=""
+                              loading="lazy"
+                              ></iframe>
+                            </a>
+                          </div>
+
+
+                        
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-10 me-auto mb-4">
+                        <h4 class="text-white mb-3"><a href="index.html">Score</a> Zone</h4>
+                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2024 <strong>Score Zone</strong></p>
+                        <br>
+                        <p class="copyright-text">Designed by <a href="#" target="_blank">Team Uchihas</a></p>
+                    </div>
+
+                    <div class="col-lg-5 col-8">
+                        <h5 class="text-white mb-3">Sitemap</h5>
+
+                        <ul class="footer-menu d-flex flex-wrap">
+                            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Live Score</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Products</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Winner predictor</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Score Predictor</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Recommendation</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-4">
+                        <h5 class="text-white mb-3">Social</h5>
+
+                        <ul class="social-icon">
+
+                            <li><a href="https://www.linkedin.com/in/mustafa-a-904747283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-icon-link bi-linkedin"></a></li>
+
+                            <li><a href="https://github.com/MUSTAFA892" class="social-icon-link bi-github"></a></li>
+
+                            <li><a href="https://www.instagram.com/_.mustafa._52/" class="social-icon-link bi-instagram"></a></li>
+
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="{% static 'js/jquery.min.js'%}"></script>
+        <script src="{% static 'js/bootstrap.bundle.min.js'%}"></script>
+        <script src="{% static 'js/Headroom.js'%}"></script>
+        <script src="{% static 'js/jQuery.headroom.js'%}"></script>
+        <script src="{% static 'js/slick.min.js'%}"></script>
+        <script src="{% static 'js/custom.js'%}"></script>
+        <script src="{% static 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap'%}"></script>
+    </body>
+</html>
